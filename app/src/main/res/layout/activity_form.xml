@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/pending_user_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal_700"
+        app:titleTextColor="@color/white"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="Fill Info"
+                android:textColor="#1E88E5"
+                android:textSize="40sp" />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="Name"
+                android:inputType="textPersonName"
+
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_adhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="Adhar Number"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="Phone no."
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_dose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="Dose No."
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="City"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:hint="Age"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="#00ACC1"
+                android:textSize="30sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="SUBMIT"
+                android:textSize="25sp"
+                app:backgroundTint="@color/teal_700"
+                app:cornerRadius="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
